@@ -1,0 +1,12 @@
+[package]
+name = "oneliners"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dirs = "6"
+clap = { version = "4", features = ["derive"] }
+
+[[bin]]
+name = "oneliners"
+path = "oneliners.rs"
